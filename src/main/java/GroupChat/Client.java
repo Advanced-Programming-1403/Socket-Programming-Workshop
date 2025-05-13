@@ -20,7 +20,6 @@ public class Client {
             // Thread to listen for messages from server
             Thread readThread = new Thread(() -> {
                 try {
-                    String serverMsg;
                     while (true) {
                         System.out.println(in.readUTF());
                     }
