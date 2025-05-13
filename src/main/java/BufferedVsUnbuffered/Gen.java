@@ -8,7 +8,7 @@ public class Gen {
     public static void main(String[] args) {
         System.out.println("Generating...");
         String filename = "C:\\Users\\amira\\OneDrive\\Desktop\\file.dat";
-        int sizeInMB = 50;
+        int sizeInMB = 10;
         int sizeInBytes = sizeInMB * 1024 * 1024;
 
         byte[] buffer = new byte[32 * 1024]; // 32 KB buffer
