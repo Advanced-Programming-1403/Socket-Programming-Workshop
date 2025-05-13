@@ -18,7 +18,7 @@ public class Account implements Serializable {
         this.id = UUID.randomUUID();
         this.username = username;
 //         TODO: Hash Password
-//        this.password = ???
+        this.password = "HASHED_PASSWORD";
         this.fullName = fullName;
         this.age = age;
     }
