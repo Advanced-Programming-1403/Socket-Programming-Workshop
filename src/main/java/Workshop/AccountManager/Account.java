@@ -19,6 +19,7 @@ public class Account implements Serializable {
         this.username = username;
 //         TODO: Hash Password
 //        this.password = ???
+        this.password = password;
         this.fullName = fullName;
         this.age = age;
     }

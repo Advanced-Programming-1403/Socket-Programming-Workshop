@@ -10,6 +10,7 @@ public class Client {
         String host = "localhost";
         int port = 5001;
 
+        // Try With Resources
         try (Socket socket = new Socket(host, port)) {
             ObjectOutputStream output = new ObjectOutputStream(socket.getOutputStream());
             output.writeObject(person);
