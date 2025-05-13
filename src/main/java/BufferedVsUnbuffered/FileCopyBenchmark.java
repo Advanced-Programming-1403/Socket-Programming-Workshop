@@ -4,9 +4,9 @@ import java.io.*;
 
 public class FileCopyBenchmark {
     public static void main(String[] args) throws IOException {
-        File source = new File("C:\\Users\\amira\\OneDrive\\Desktop\\file.dat"); // test file, e.g., 500 MB+
-        File dest1 = new File("C:\\Users\\amira\\OneDrive\\Desktop\\unbuffered.dat");
-        File dest2 = new File("C:\\Users\\amira\\OneDrive\\Desktop\\buffered.dat");
+        File source = new File("src/main/resources/file.dat"); // test file, e.g., 500 MB+
+        File dest1 = new File("src/main/resources/unbuffered.dat");
+        File dest2 = new File("src/main/resources/buffered.dat");
 
         // --- Buffered copy ---
         System.out.println("Buffered copy...");

@@ -7,7 +7,7 @@ import java.util.Random;
 public class Gen {
     public static void main(String[] args) {
         System.out.println("Generating...");
-        String filename = "C:\\Users\\amira\\OneDrive\\Desktop\\file.dat";
+        String filename = "src/main/resources/file.dat";
         int sizeInMB = 10;
         int sizeInBytes = sizeInMB * 1024 * 1024;
 
